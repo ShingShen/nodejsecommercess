@@ -1,0 +1,54 @@
+.login_page {
+    align-items: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ecommer {
+    background-color: rgb(3, 118, 196);
+}
+
+.login_system {
+    width: 398px;
+    /* height: fit-content; */
+    border: 1px solid lightgray;
+}
+
+.member_login {
+    padding-top: 12px;
+}
+
+.input_title {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 95px;
+}
+
+.login_input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 50px;
+}
+
+.login_button {
+    margin-left: 0;
+    padding: 8px 15px;
+}
+
+.login_or_register {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 92px;
+}
+
+.not_register {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}

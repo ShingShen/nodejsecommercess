@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(3, 118, 196);
+    color: azure;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header_logo {
+    width: 200px;
+    padding-left: 5%;
+}
+
+.search_bar {
+    padding-right: 30px;
+}
+
+.text_input {
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: middle;
+} 
+
+.search_icon {
+    border: none;
+    padding-top: 5px;
+    padding-left: 7px;
+    vertical-align: middle;
+}
+
+.header_right_buttons {
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+} 
+
+.cart {
+    color: azure;
+}
+
+.register {
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 15px;
+    color: azure;
+}
+
+.login {
+    text-decoration: none;
+    color: azure;
+}
