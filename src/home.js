@@ -1,8 +1,19 @@
 import React from 'react';
 import './home.css';
 import Asusvivo from './images/asusvivobooks200.jpg';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function home() {
+
+    const settings = {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    }
+
     return (
         <div>
             <div className="home">
@@ -16,14 +27,43 @@ function home() {
                         <li className="left_bar_item"><b>軟體 </b>Photoshop 防毒 SPSS</li>
                     </div>
                 </div>
-                <div className="slide">
-                    <h2>精選商品</h2>
-                    <img
-                        className="special_item"
-                        src={Asusvivo}
-                        alt='Asusvivo'
-                    />
-                </div>
+                <Slider {...settings}>
+                    <div class="post">
+                        <img
+                            className="special_item"
+                            src={Asusvivo}
+                            alt='Asusvivo'
+                        />
+                    </div>
+                    <div class="post">
+                        <img
+                            className="special_item"
+                            src={Asusvivo}
+                            alt='Asusvivo'
+                        />
+                    </div>
+                    <div class="post">
+                        <img
+                            className="special_item"
+                            src={Asusvivo}
+                            alt='Asusvivo'
+                        />
+                    </div>
+                    <div class="post">
+                        <img
+                            className="special_item"
+                            src={Asusvivo}
+                            alt='Asusvivo'
+                        />
+                    </div>
+                    <div class="post">
+                        <img
+                            className="special_item"
+                            src={Asusvivo}
+                            alt='Asusvivo'
+                        />
+                    </div>
+                </Slider>
             </div>
             <div>
                 <div className="hot_items_title">
