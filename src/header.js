@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+// import './header.css';
 import ECommer from './images/ECommer.png';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -21,7 +21,7 @@ function header() {
                         className="text_input"
                         placeholder="搜尋商品..."
                     />
-                    <button className="search_icon">
+                    <button type ="submit" className="search_icon">
                         <SearchIcon />
                     </button>
                 </form>

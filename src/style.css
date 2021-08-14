@@ -1,0 +1,321 @@
+/* App */
+.App {
+  text-align: center;
+}
+
+/* header */
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(3, 118, 196);
+  color: azure;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header_logo {
+  width: 200px;
+  padding-left: 5%;
+}
+
+.search_bar {
+  padding-right: 30px;
+}
+
+.text_input {
+  border: none;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  vertical-align: middle;
+} 
+
+.search_icon {
+  border: none;
+  padding-top: 5px;
+  padding-left: 7px;
+  vertical-align: middle;
+}
+
+.header_right_buttons {
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+} 
+
+.cart {
+  color: azure;
+}
+
+.register {
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 15px;
+  color: azure;
+}
+
+.login {
+  text-decoration: none;
+  color: azure;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  position: relative;
+}
+
+.footer_content {
+  background-color: rgb(3, 118, 196);
+  color: azure;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+
+}
+
+.footer_title {
+  text-align: left;
+  font-size: 20px;
+}
+
+.footer_list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.subscribe_form {
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+
+.subscribe_input {
+  padding-bottom: 10px;
+}
+
+.subscribe_input_content {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 38px;
+}
+
+.subscribe_button {
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer_bottom {
+  background-color: azure;
+  padding: 5px 0px;
+}
+
+
+/* home */
+* {
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+  /* min-height: 0;
+  min-width: 0; 
+  they must be added, or the slider would be gone.
+  */
+}
+
+.home {
+  display: flex;
+  padding-top: 40px;
+}
+
+.left_bar {
+  display: inline-block;
+  height: 400px;
+  width: 3200px;
+  text-align: left;
+  list-style-type:  none;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 120px;
+  padding-right: 200px;
+}
+
+.left_bar_title {
+  background-color: rgb(3, 118, 196);
+  color: azure;
+  text-align: center;
+  padding: 10px;
+}
+
+.left_bar_items {
+  background-color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+.left_bar_item {
+  padding: 10px 0px 20px 10px;
+}
+
+.slide {
+  background-color: lightgray;
+  margin-top: 15px;
+  margin-right: 30%;
+}
+
+.special_item {
+  width: 600px;
+}
+
+.hot_items_title {
+  padding: 10px 10px;
+  background-color: rgb(3, 118, 196);
+  color: azure;
+}
+
+.hot_items_list {
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.hot_item {
+  width: 280px;
+}
+
+.item_name {
+  padding: 20px 0px;
+}
+
+.know_more {
+  background-color: lightgray;
+}
+
+/* register */
+.register_page {
+  align-items: center;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ecommer {
+  background-color: rgb(3, 118, 196);
+}
+
+.register_system {
+  width: 398px;
+  /* height: fit-content; */
+  border: 1px solid lightgray;
+}
+
+.member_register {
+  padding-top: 12px;
+}
+
+.input_title {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 95px;
+}
+
+.register_input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 50px;
+}
+
+.register_button {
+  margin-left: 0;
+  padding: 8px 15px;
+}
+
+.login_or_register {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 92px;
+}
+
+.have_account {
+  text-decoration: none;
+  padding-left: 15px;
+  color: black;
+}
+
+
+/* login */
+.login_page {
+  align-items: center;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ecommer {
+  background-color: rgb(3, 118, 196);
+}
+
+.login_system {
+  width: 398px;
+  /* height: fit-content; */
+  border: 1px solid lightgray;
+}
+
+.member_login {
+  padding-top: 12px;
+}
+
+.input_title {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 95px;
+}
+
+.login_input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 50px;
+}
+
+.login_button {
+  margin-left: 0;
+  padding: 8px 15px;
+}
+
+.login_or_register {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 92px;
+}
+
+.not_register {
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+}

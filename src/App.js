@@ -5,7 +5,7 @@ import Register from './register';
 import Login from './login';
 import Footer from './footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import './App.css';
+import './style.css';
 
 function App() {
   return (

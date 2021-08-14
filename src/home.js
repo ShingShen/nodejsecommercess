@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+// import './style.css';
 import Asusvivo from './images/asusvivobooks200.jpg';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";

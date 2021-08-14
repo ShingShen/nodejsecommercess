@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ECommer from './images/ECommer.png';
-import './register.css';
 
 function register() {
     return (

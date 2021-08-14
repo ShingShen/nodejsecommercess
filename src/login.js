@@ -1,6 +1,5 @@
 import React from 'react';
 import ECommer from './images/ECommer.png';
-import './login.css';
 import { Link } from 'react-router-dom'
 
 function login() {
