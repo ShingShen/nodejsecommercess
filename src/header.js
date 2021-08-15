@@ -15,8 +15,8 @@ function header() {
                     alt='ECommer'
                 />
             </Link>
-            <div className="header_right_buttons">
-                <form className="search_bar">
+            <ul className="header_right_buttons">
+                <form method="POST" className="search_bar">
                     <input
                         className="text_input"
                         placeholder="搜尋商品..."
@@ -29,12 +29,12 @@ function header() {
                     <ShoppingCartIcon />
                 </Link>
                 <Link to="/register" className="register">
-                    <h1>註冊</h1>
+                    <li>註冊</li>
                 </Link>
                 <Link to="/login" className="login">
-                    <h1>登入</h1>
+                    <li>登入</li>
                 </Link>
-            </div>
+            </ul>
         </div>
     )
 }

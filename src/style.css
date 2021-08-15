@@ -1,13 +1,20 @@
+* {
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+  /* min-height: 0;
+  min-width: 0; 
+  they must be added, or the slider would be gone.
+  */
+}
+
 /* App */
 .App {
   text-align: center;
 }
 
-/* header */
-* {
-  margin: 0;
-}
 
+/* header */
 .header {
   background-color: rgb(3, 118, 196);
   color: azure;
@@ -52,18 +59,35 @@
 
 .cart {
   color: azure;
+  padding: 10px;
 }
 
 .register {
+  font-size:large;
+  font-weight: 600;
+  list-style-type: none;
   text-decoration: none;
-  padding-left: 30px;
-  padding-right: 15px;
+  padding: 10px 15px;
   color: azure;
 }
 
+.register:hover {
+  background-color: rgb(0, 100, 167);
+  /* transition: 0.5s; */
+}
+
 .login {
+  font-size: large;
+  font-weight: 600;
+  list-style-type: none;
   text-decoration: none;
+  padding: 10px 15px;
   color: azure;
+}
+
+.login:hover {
+  background-color: rgb(0, 100, 167);
+  /* transition: 0.5s; */
 }
 
 /* footer */
@@ -80,7 +104,6 @@
   padding-top: 20px;
   padding-bottom: 30px;
   text-align: left;
-
 }
 
 .footer_title {
@@ -91,6 +114,7 @@
 .footer_list {
   list-style-type: none;
   text-align: left;
+  padding-left: 4px;
 }
 
 .subscribe_form {
@@ -125,16 +149,6 @@
 
 
 /* home */
-* {
-  margin: 0;
-  min-height: 0;
-  min-width: 0;
-  /* min-height: 0;
-  min-width: 0; 
-  they must be added, or the slider would be gone.
-  */
-}
-
 .home {
   display: flex;
   padding-top: 40px;
@@ -160,6 +174,7 @@
 }
 
 .left_bar_items {
+  list-style-type: none;
   background-color: lightgray;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -172,10 +187,8 @@
   padding: 10px 0px 20px 10px;
 }
 
-.slide {
-  background-color: lightgray;
-  margin-top: 15px;
-  margin-right: 30%;
+.slider {
+  margin: 30px;
 }
 
 .special_item {
@@ -183,6 +196,7 @@
 }
 
 .hot_items_title {
+  margin: 30px 0px;
   padding: 10px 10px;
   background-color: rgb(3, 118, 196);
   color: azure;
@@ -207,13 +221,13 @@
   background-color: lightgray;
 }
 
+
 /* register */
 .register_page {
   align-items: center;
   padding: 100px;
   display: flex;
   flex-direction: column;
-
 }
 
 .ecommer {
@@ -263,6 +277,9 @@
   color: black;
 }
 
+.have_account:hover {
+  text-decoration: underline;
+}
 
 /* login */
 .login_page {
@@ -306,16 +323,20 @@
   padding: 8px 15px;
 }
 
-.login_or_register {
+/* .login_or_register {
   display: flex;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 30px;
   padding-left: 92px;
-}
+} */
 
 .not_register {
   text-decoration: none;
   color: black;
   padding-left: 15px;
+}
+
+.not_register:hover {
+  text-decoration: underline;
 }

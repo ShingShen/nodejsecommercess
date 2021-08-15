@@ -19,7 +19,7 @@ function login() {
                     <h1>會員登入</h1>
                 </div>
                 <div>
-                    <form>
+                    <form method="POST">
                         <div className="input_title">
                             <label>E-Mail</label>
                         </div>

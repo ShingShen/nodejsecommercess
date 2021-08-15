@@ -19,7 +19,7 @@ function register() {
                     <h1>會員註冊</h1>
                 </div>
                 <div>
-                    <form>
+                    <form method="POST">
                     <div className="input_title">
                             <label>暱稱</label>
                         </div>

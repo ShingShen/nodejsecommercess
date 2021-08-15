@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 function home() {
 
     const settings = {
+        dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -19,15 +20,15 @@ function home() {
             <div className="home">
                 <div className="left_bar">
                     <h2 className="left_bar_title">系列商品</h2>
-                    <div className="left_bar_items">
+                    <ul className="left_bar_items">
                         <li className="left_bar_item"><b>3C </b>電腦 硬碟 網路</li>
                         <li className="left_bar_item"><b>家電 </b>冷氣 電風扇 洗衣機</li>
                         <li className="left_bar_item"><b>通訊 </b>iPhone 三星 小米 </li>
                         <li className="left_bar_item"><b>電玩 </b>PS4 XBOX SWITCH</li>
                         <li className="left_bar_item"><b>軟體 </b>Photoshop 防毒 SPSS</li>
-                    </div>
+                    </ul>
                 </div>
-                <Slider {...settings}>
+                <Slider {...settings} className="slider">
                     <div class="post">
                         <img
                             className="special_item"

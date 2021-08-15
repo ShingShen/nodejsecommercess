@@ -7,19 +7,19 @@ function footer() {
             <div className="footer_content">
                 <div>
                     <h1 className="footer_title">關於我們</h1>
-                    <div className="footer_list">
+                    <ul className="footer_list">
                         <li>最新消息</li>
                         <li>合作商家</li>
-                    </div>
+                    </ul>
                 </div>
                 <div>
                     <h1 className="footer_title">聯絡我們</h1>
-                    <div className="footer_list">
+                    <ul className="footer_list">
                         <li>E-mail: XXX@XXX.com</li>
                         <li>電話: XX XXXX XXXX</li>
                         <li>服務時間: 週一 ~ 週五 9:30 ~ 7:00</li>
                         <li>地址: 浣熊市吉兒區克蕾兒路23號100F</li>
-                    </div>
+                    </ul>
                 </div>
                 <div className="subscribe">
                     <h1 className="footer_title">訂閱電子報</h1>
