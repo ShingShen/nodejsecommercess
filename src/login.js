@@ -34,9 +34,9 @@ function login() {
                         </div>
                         <div className="login_or_register">
                             <button type="submit" className="login_button">登入</button>
-                            <Link to="/register" className="not_register">還沒註冊?</Link>
                         </div>
                     </form>
+                    <Link to="/register" className="not_register">還沒註冊?</Link>
                 </div>
             </div>
         </div>

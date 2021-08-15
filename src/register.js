@@ -42,13 +42,13 @@ function register() {
                             <label>密碼確認</label>
                         </div>
                         <div>
-                            <input type="password" className="login_input" placeholder='請再輸入一次密碼...' />
+                            <input type="password" className="register_input" placeholder='請再輸入一次密碼...' />
                         </div>
                         <div className="login_or_register">
                             <button type="submit" className="register_button">登入</button>
-                            <Link to="/login" className="have_account">已是會員?</Link>
                         </div>
                     </form>
+                    <Link to="/login" className="have_account">已是會員?</Link>
                 </div>
             </div>
         </div>
